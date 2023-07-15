@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <script src="scripts/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Perez</title>
+</head>
+
+<body class="" id="body">
+
+    <div class="page-wrapper">
+
+        <div class="nav-section">
+            <a class="logo-link" href="index.html">
+                <img src="imagenes/logo.svg" alt="Sebastian Perez" height="32px">
+                <p>Sebastian Perez</p>
+            </a>
+            <a class="nav-link" href="#about">Sobre Mi</a>
+            <a class="nav-link" href="#works">Trabajos</a>
+            <a class="nav-link" href="#contact">Contacto</a>
+        </div>
+
+        <div class="hero-section">
+
+            <div class="hero_cta-wrap">
+                <h1 class="heading-l hero-heading">Creando el futuro desde un galpon.</h1>
+                <p> Mi enfoque esta en crear impacto real mediante el espacio digital y tecnologico.</p>
+            </div>
+            <div class="hero_image-wrap">
+                <img class="hero-img" src="imagenes/samuel-scrimshaw-2oFdVd00xOg-unsplash.jpg" alt="Sebastian Perez">
+            </div>
+
+        </div>
+
+        <div class="about-section" id="about">
+
+            <div class="first-about">
+                <h2 class="heading-m">Herramientas que recomiendo.</h2>
+                <div class="stack">
+                    <div>
+                        <div class="stack">
+                            <a href="https://www.figma.com"><img class="icon-stack" src="imagenes/figma_logo.png" alt="Figma"></a>
+                            <a href="https://openai.com/blog/chatgpt"><img class="icon-stack" src="imagenes/chatgpt-icon.svg" alt="ChatGPT" style="width: 32px;"></a>
+                            <a href="https://webflow.com"><img class="icon-stack" src="imagenes/webflow_log.svg" alt="Webflow"></a>
+                            <a href="https://www.framer.com/"><img class="icon-stack" src="imagenes/framer_logo.png" alt="Framer" style="width: 38px; height: 38px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-about">
+                <div class="aboutme">
+                    <h2 class="heading-l">Hola, soy Sebastian.</h2>
+                    <p>Emprendedor y visionario, pero mas que nada me considero un estudiante de por vida.</p>
+                    <p>Los desafios y el aprendizaje continuo son mi pasion y proposito.</p>
+                    <div class="image-gallery">
+                        <div class="yo" style="cursor: pointer;">
+                            <img src="/porfolio_personal-jap/imagenes/yo.jpeg" alt="Yo">
+                            <p class="heading-m">yo</p>
+                        </div>
+                        <div class="mi_perro" style="cursor: pointer;">
+                            <img src="/porfolio_personal-jap/imagenes/mi_perro.JPG" alt="Mi perro">
+                            <p class="heading-m">Mi ayudante</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works-section">
+                <div class="works-wrap" id="works">
+                    <h2 class="heading-l">Lo que hago.</h2>
+                    <div class="work-slide" onclick="popup('jap-popup');">
+                        <h2 class="heading-l">Jovenes a programar</h2>
+                    </div>
+
+                    <div class="popup-bg inactive" id="ranzel-popup">
+                        <div class="work-content">
+                            <div class="top-bar">
+                                <img class="closer" src="/porfolio_personal-jap/imagenes/crux.svg"
+                                    onclick="close_popup('ranzel-popup')" alt="Crux">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup-bg inactive" id="jap-popup">
+                        <div class="work-content">
+                            <div class="top-bar">
+                                <img class="closer" src="/porfolio_personal-jap/imagenes/crux.svg"
+                                    onclick="close_popup('jap-popup')" alt="Crux">
+                            </div>
+                            <div class="work-content-wrap">
+                                <h2 class="heading-m">Jovenes a programar</h2>
+                                <img src="/porfolio_personal-jap/imagenes/samuel-scrimshaw-2oFdVd00xOg-unsplash.jpg"
+                                    alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, perspiciatis.
+                                    Ratione illum quos aspernatur porro reiciendis asperiores facere commodi mollitia,
+                                    vitae voluptates corporis dolorem maxime similique, consectetur tenetur corrupti
+                                    minus!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, perspiciatis.
+                                    Ratione illum quos aspernatur porro reiciendis asperiores facere commodi mollitia,
+                                    vitae voluptates corporis dolorem maxime similique, consectetur tenetur corrupti
+                                    minus!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, perspiciatis.
+                                    Ratione illum quos aspernatur porro reiciendis asperiores facere commodi mollitia,
+                                    vitae voluptates corporis dolorem maxime similique, consectetur tenetur corrupti
+                                    minus!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-section" id="contact">
+
+                        <div class="footer-left">
+                            <h2 class="heading-m" style="cursor: default;">Querés contactarte? Te dejo mi correo.</h2>
+                            <img src="/porfolio_personal-jap/imagenes/arrow-right-svgrepo-com.svg" alt="arrow" width="32px">
+                        </div>
+                        <div class="footer-right">
+                            <a class="button" value="sbampe@gmail.com" id="contact" onclick="copy_to_clipboard()">sbampe@gmail.com</a>
+                        </div>
+
+                    </div>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="website-loader" id="website-loader">
+        <div class="loading-icon"></div>
+    </div>
+
+    <div class="copied-wrapper">
+        <div class="copied-popup inactive" id="copied-popup">
+            <p>Copiado al portapapeles.</p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+    </script>
+</body>
+
+</html>
