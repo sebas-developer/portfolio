@@ -338,7 +338,6 @@ p
     display: flex;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    margin-top: 2vw;
 
     top: 0;
     justify-content: end;
@@ -453,6 +452,11 @@ p
     padding-right: 2%;
 
     text-align: center;
+}
+
+.work-content-wrap img 
+{
+    margin-top: 2vw;
 }
 
 @keyframes pop-swift {
