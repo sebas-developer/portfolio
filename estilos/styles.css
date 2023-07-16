@@ -338,6 +338,8 @@ p
     display: flex;
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    margin-top: 2vw;
+
     top: 0;
     justify-content: end;
 
