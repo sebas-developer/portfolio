@@ -381,7 +381,7 @@ p
 .closer
 {
     filter: invert();
-    height: 32px;
+    max-height: 32px;
 
     transition: ease-in-out 125ms;
     cursor: pointer;
@@ -503,11 +503,6 @@ p
 
 
 @media (max-width: 800px) {
-
-    .closer 
-    {
-        height: 25px;
-    }
 
     .heading-l
     {
