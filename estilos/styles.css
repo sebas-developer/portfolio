@@ -381,6 +381,7 @@ p
 .closer
 {
     filter: invert();
+    width: 50px;
 
     transition: ease-in-out 125ms;
     cursor: pointer;
