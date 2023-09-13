@@ -403,7 +403,7 @@ p {
   height: 80vh;
   overflow: auto;
 
-  color: #0a0a0a;
+  color: white;
   background-color: #0a0a0a;
   scrollbar-gutter: 0px;
   -ms-overflow-style: none;
