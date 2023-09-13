@@ -97,13 +97,12 @@ p {
   transition: 225ms ease-out;
 }
 
-.full-width {
-  width: webkit-fill-available;
-  width: 100%;
-}
-
 .button:hover {
   opacity: 90%;
+}
+
+.full-width {
+  width: webkit-fill-available;
 }
 
 .copied-wrapper {
